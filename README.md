@@ -49,11 +49,9 @@ Run the following command
 python demo_train.py ('data_dir' is needed before running )
 
 ```
-For training other models, you should uncommend lines in scripts/train.sh file.
 
-I used ADAM optimizer with a mini-batch size 16 for training. The learning rate is 1e-4. Total training takes 600 epochs to converge.  To prevent our network from overfitting, several data augmentation techniques are involved. In terms of geometric transformations, patches are randomly rotated by 90, 180, and 270 degrees. To take image degradations into account, saturation in HSV colorspace is multiplied by a random number within [0.8, 1.2].   
+I used ADAM optimizer with a mini-batch size 16 for training. The learning rate is 1e-4. Total training takes 1000 epochs to converge.  To prevent our network from overfitting, several data augmentation techniques are involved. In terms of geometric transformations, patches are randomly rotated by 90, 180, and 270 degrees. To take image degradations into account, saturation in HSV colorspace is multiplied by a random number within [0.8, 1.2].   
 
-![validation_curves](figs/validation_curve.png)
 
 ## Testing
 
