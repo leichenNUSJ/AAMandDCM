@@ -5,7 +5,7 @@ from torch.autograd import Variable
 import argparse
 import torch.optim as optim
 
-from models import networks_adaCBMA_deform as networks
+import networks_adaCBMA_deform as networks
 from data import Gopro
 from utils import *
 import torch.optim.lr_scheduler as lr_scheduler
