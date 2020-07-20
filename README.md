@@ -24,7 +24,7 @@ torchvision==0.2.2
 
 ## Environment
 
-I recommend using ```virtualenv``` for making an environment. If you using ```virtualenv```,
+I recommend using ```virtualenv``` for making an environment. 
 
 
 ## Dataset
